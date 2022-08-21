@@ -1,0 +1,164 @@
+/* responsive  Document */
+
+@media (max-width: 1024px) {
+    .form-control {
+        width: 100%;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo,
+    #learn {
+        text-align: center;
+    }
+    .banner-text {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .banner-text h1,
+    .banner-text h2 {
+        float: none;
+        margin: 0 0 25px;
+    }
+    .img-1,
+    .img-2,
+    .img-3 {
+        float: none;
+    }
+    .img-2 {
+        position: inherit;
+    }
+    .img-3 {
+        position: relative;
+        bottom: 0;
+        top: 0;
+        right: 0;
+    }
+    #signUp-form {
+        margin-bottom: 50px;
+    }
+    .btn-submit {
+        width: 90%;
+    }
+    .form-control {
+        display: -webkit-inline-box;
+        display: -moz-inline-box
+    }
+    #banner {
+        background-attachment: fixed;
+        position: relative;
+        text-align: center;
+    }
+    .item span {
+        padding-bottom: 26px;
+    }
+    .work_block {
+        margin-bottom: 50px;
+    }
+    #bx-pager a {
+        margin-right: 0px;
+    }
+    .testimonial-content {
+        border: none;
+        margin: 0px;
+    }
+    #copyRight p,
+    .footer-detail {
+        float: none;
+        text-align: center;
+    }
+    #copyRight p {
+        text-align: center;
+    }
+}
+
+@media (max-width:426px) {
+    br {
+        display: none;
+    }
+    .banner-text h1,
+    .banner-text span {
+        font-size: 35px;
+    }
+    .learn_main h3,
+    .work_main h3,
+    .testimonial_main h3 {
+        font-size: 30px;
+    }
+    .footer-detail h3 {
+        margin-bottom: 20px;
+    }
+    .testimonial-content {
+        border: none;
+        margin: 0px 15px;
+    }
+    #bx-pager a {
+        margin-right: 10px;
+    }
+    #bx-pager a img {
+        margin: 10px 15px;
+        float: left;
+    }
+}
+
+@media (max-width:376px) {
+    br {
+        display: none;
+    }
+    span {
+        font-size: 30px;
+    }
+    #copyRight p,
+    .footer-detail {
+        float: none
+    }
+    #bx-pager a img {
+        margin: 10px 0px;
+        float: left;
+    }
+}
+
+@media (max-width: 320px) {
+    h2 {
+        font-size: 20px;
+    }
+    span {
+        font-size: 30px;
+    }
+    .learn_main h3,
+    .work_main h3 {
+        font-size: 25px;
+    }
+    #copyRight p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .banner-text h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .logo {
+        text-align: center;
+    }
+    .banner-text {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    #banner button {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 320px) {
+    #banner button {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
